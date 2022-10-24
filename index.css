@@ -1,0 +1,53 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(3, 3, 36);
+}
+
+.deepak_top {
+  margin-left: 4rem;
+  width: 150px;
+  height: 150px;
+  border: 2px solid yellow;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 900px;
+  border-bottom-left-radius: 900px;
+  transform: rotate(45deg);
+  animation: animate1 4s linear infinite;
+  margin-bottom: 1.9rem;
+}
+
+@keyframes animate1 {
+  0% {
+    color: rgb(255, 255, 112);
+    box-shadow: 0 0 80px yellow;
+  }
+  0% {
+    color: rgb(255, 255, 112);
+    box-shadow: 0 0 100px yellow;
+  }
+}
+
+.deepak_main {
+  background-color: rgb(3, 3, 36);
+  display: inline-block;
+  border: 2px solid brown;
+  height: 136px;
+  width: 280px;
+  border-bottom-left-radius: 136px;
+  border-bottom-right-radius: 136px;
+  box-shadow: 0 0 40px brown;
+}
+
+.deepak_main span {
+  color: orange;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+  background: none;
+}
